@@ -37,7 +37,7 @@ function filter() {
     }) 
 }
 
-function showCandidates(sex,agefrom, ageto) {
+function showCandidates(sex, agefrom, ageto) {
     document.getElementById("overview").innerHTML = ""
     if (sex == "all"){
         for (let candidate of candidates) {
@@ -47,6 +47,9 @@ function showCandidates(sex,agefrom, ageto) {
                     <img src="${candidate.img}" width="300" height="200">    
                     <span id="${candidate.id}" class="heart">&#10084</span>      
                     <p class="quote">${candidate.quote}</p>
+                    <div class="progdiv">
+                        <div class="progbar" style="width:${candidate.numfavs}%">${candidate.numfavs}</div>
+                    </div>
                 </div>
                 `
                 if (candidate.fav == "true"){
@@ -64,6 +67,9 @@ function showCandidates(sex,agefrom, ageto) {
                         <img src="${candidate.img}" width="300" height="200">    
                         <span id="${candidate.id}" class="heart">&#10084</span>      
                         <p class="quote">${candidate.quote}</p>
+                        <div class="progdiv">
+                            <div class="progbar" style="width:${candidate.numfavs}%">${candidate.numfavs}</div>
+                        </div>
                     </div>
                     `
                     if (candidate.fav == "true"){
@@ -82,6 +88,9 @@ function showCandidates(sex,agefrom, ageto) {
                         <img src="${candidate.img}" width="300" height="200">    
                         <span id="${candidate.id}" class="heart">&#10084</span>      
                         <p class="quote">${candidate.quote}</p>
+                        <div class="progdiv">
+                            <div class="progbar" style="width:${candidate.numfavs}%">${candidate.numfavs}</div>
+                        </div>
                     </div>
                     `
                     if (candidate.fav == "true"){
@@ -100,6 +109,9 @@ function showCandidates(sex,agefrom, ageto) {
                         <img src="${candidate.img}" width="300" height="200">    
                         <span id="${candidate.id}" class="heart">&#10084</span>      
                         <p class="quote">${candidate.quote}</p>
+                        <div class="progdiv">
+                            <div class="progbar" style="width:${candidate.numfavs}%">${candidate.numfavs}</div>
+                        </div>
                     </div>
                     `
                     if (candidate.fav == "true"){
@@ -117,13 +129,16 @@ function showFavourites() {
         if (candidate.fav == "true") {
             document.getElementById("favourites").innerHTML +=`
             <div class="fav">
-            <img src="${candidate.img}" width="300" height="200">         
+            <img src="${candidate.img}">         
                 <p class="info">
                     Name: ${candidate.name}<br>
                     Age: ${candidate.age}<br>
                     Location: ${candidate.location}<br>
                     Hobbies: ${candidate.hobbies}<br>
                     Music: ${candidate.music}<br>
+                    <div class="progdiv">
+                       <div class="progbar" style="width:${candidate.numfavs}%">${candidate.numfavs}</div>
+                    </div>
                     <button id="${candidate.id}">Remove</button>
                 </p>
             </div>
@@ -142,6 +157,10 @@ function selectDeselectFavourites() {
                 if (candidate.id == canId && candidate.fav == "false" ) {
                     event.target.style.color= "red" 
                     candidate.fav = "true"
+                    count = (Number(candidate.numfavs)+1)
+                    candidate.numfavs = count;
+                    event.target.parentNode.childNodes[7].childNodes[1].innerText = count;
+                    event.target.parentNode.childNodes[7].childNodes[1].style.width = `${count}%`;
                     showFavourites()
                 } else if (candidate.id == canId && candidate.fav == "true") {
                     event.target.style.color= "black" 

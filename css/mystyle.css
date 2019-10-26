@@ -34,12 +34,14 @@ h1 {
   background-color: #337AB7;
   padding: 0.7em;
   font-size: 1.5em;
+  margin-top: 2em;
 }
 
 #filters {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 36%;
 }
 
 #filters > * {
@@ -55,24 +57,30 @@ h1 {
   background-color: grey;
   text-align: center;
   width: 100%;
-  padding: 3em;
+  padding: 1.5em;
   text-align: center;
   font-weight: bold;
 }
 
 #overview {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card {
   position: relative;
   width: 20%;
-  margin: 4em;
-  margin-bottom: 8em;
+  height: 20%;
+  margin: 2em;
+  margin-bottom: 3em;
 }
 
 img {
@@ -83,12 +91,12 @@ img {
 span {
   position: absolute;
   font-size: 5em;
-  top: 0.7em;
-  right: 0.7em;
+  top: 0.1em;
+  right: 0.1em;
 }
 
 .fav {
-  width: 33%;
+  width: 25%;
   margin: 4em;
   margin-bottom: 6em;
   padding: 0 2em;
@@ -107,5 +115,18 @@ span {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.progdiv {
+  margin-top: -1.5em;
+  background-color: grey;
+  border-style: solid;
+  height: 2em;
+  width: 100%;
+}
+
+.progbar {
+  background-color: red;
+  text-align: center;
 }
 /*# sourceMappingURL=mystyle.css.map */

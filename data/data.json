@@ -6,9 +6,10 @@ let candidates = [
       "location" : "Bukarest",
       "hobbies" : "Tennis, swimming",
       "music" : "Enya",
-      "img" : "https://i.imgur.com/TMtOuFN.jpg",
+      "img" : "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg",
       "fav": "false",  
-      "quote" : "Be yourself; everyone else is already taken."
+      "quote" : "Be yourself because everyone else is already taken.",
+      "numfavs" : "64"   
     },
     { "id" : "2",
         "name" : "Valentina",
@@ -17,9 +18,10 @@ let candidates = [
         "location" : "Milano",
         "hobbies" : "Shopping, dancing",
         "music" : "Pop",
-        "img" : "https://kep.cdn.indexvas.hu/1/0/986/9860/98608/9860839_12c9a43c7c9d80e676ad40e583340004_wm.jpg",
+        "img" : "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg",
         "fav": "false",
-        "quote" : "So many books, so little time."    
+        "quote" : "So many books, so little time. Need to hurry up!",
+        "numfavs" : "38"       
       },
       { "id" : "3",
         "name" : "Inez",
@@ -28,9 +30,10 @@ let candidates = [
         "location" : "Berlin",
         "hobbies" : "Fitness, Singing",
         "music" : "Celine Dion",
-        "img" : "https://pb2.jegy.hu/imgs/system-4/program/000/007/376/beszelo-fejek-original-13995.jpg",
+        "img" : "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg",
         "fav": "false",  
-        "quote" : "You only live once, but if you do it right, once is enough."    
+        "quote" : "You only live once, but if you do it right, once is enough.",
+        "numfavs" : "91"       
       },
       { "id" : "4",
         "name" : "Igor",
@@ -39,9 +42,10 @@ let candidates = [
         "location" : "Moscow",
         "hobbies" : "Autos, Girls",
         "music" : "Rock",
-        "img" : "http://bikemag.hu/images/2012/10/lemond.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."    
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "74"       
 
       },
       { "id" : "5",
@@ -51,9 +55,10 @@ let candidates = [
         "location" : "Salzburg",
         "hobbies" : "Reading, movies",
         "music" : "Beatles",
-        "img" : "https://cdn.dedoles.sk/buxus/images/cache/comprimed_detail_image4/buxus/images/katalog_produktov/tricko_s_kratkym_rukavom_macacie_hlavy/20160624084555_YyWZhlDg5vw3mQXW_1360-1360.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "13"               
       },
       { "id" : "6",
         "name" : "Oz",
@@ -62,9 +67,10 @@ let candidates = [
         "location" : "Thessaloniki",
         "hobbies" : "Eating, drinking",
         "music" : "Greek",
-        "img" : "https://images.reblog.hu/uploads/blogs/1437/108308/post_108308_20121121075949.jpeg",
+        "img" : "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "54"           
       },
       { "id" : "7",
         "name" : "Jennifer",
@@ -73,9 +79,10 @@ let candidates = [
         "location" : "Paris",
         "hobbies" : "Fashion, styling",
         "music" : "Hip-Hop",
-        "img" : "http://ekladata.com/XUYTLDKjh7vKjB97XC8WDSLPPOU.png",
+        "img" : "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "14"           
       },
       { "id" : "8",
         "name" : "Amy",
@@ -86,7 +93,8 @@ let candidates = [
         "music" : "Sting",
         "img" : "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "83"           
       },
       { "id" : "9",
         "name" : "Luis",
@@ -95,9 +103,10 @@ let candidates = [
         "sex" : "male",
         "hobbies" : "Driving, F1",
         "music" : "U2",
-        "img" : "https://igenyesferfi.hu/wp-content/uploads/2015/04/1.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "66"           
       },
       { "id" : "10",
         "name" : "Joe",
@@ -106,9 +115,10 @@ let candidates = [
         "location" : "Bratislava",
         "hobbies" : "Hiking, jumping",
         "music" : "Heavy metal",
-        "img" : "http://static.est.hu/kepek/132/galeria/132391_galeria_montalbano_felugyelo_1_26.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "22"           
       },
       { "id" : "11",
         "name" : "Fredrik",
@@ -119,7 +129,8 @@ let candidates = [
         "music" : "Classic",
         "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "72"         
       },
       { "id" : "12",
         "name" : "Pityu",
@@ -128,9 +139,10 @@ let candidates = [
         "location" : "Keszthely",
         "hobbies" : "Painting, arts ",
         "music" : "Mozart, Beethoven",
-        "img" : "https://igenyesferfi.hu/wp-content/uploads/2015/04/2.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world." 
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "51"    
       },
       { "id" : "13",
         "name" : "Sofia",
@@ -139,9 +151,10 @@ let candidates = [
         "location" : "St. Tropez",
         "hobbies" : "Dancing, Singing",
         "music" : "Madonna",
-        "img" : "https://www.webbeteg.hu/images/facebook/clusterfejfajas_facebook.jpg",
+        "img" : "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "9"           
       },
       { "id" : "14",
         "name" : "Li Lu La",
@@ -150,9 +163,10 @@ let candidates = [
         "location" : "Tokio",
         "hobbies" : "Computer",
         "music" : "Jon Bon Jovi",
-        "img" : "https://en.fambo.info/wp-content/uploads/2018/02/b1388310b7d9d1dc8ad5b7c3362bf9c0.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "61"           
       },
       { "id" : "15",
         "name" : "Karim",
@@ -161,9 +175,10 @@ let candidates = [
         "location" : "Ankara",
         "hobbies" : "Running, Basketball",
         "music" : "Backstreet Boys",
-        "img" : "https://igenyesferfi.hu/wp-content/uploads/2016/07/kopasz_fejbor.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "17"           
       },
       { "id" : "16",
         "name" : "Karl",
@@ -172,9 +187,10 @@ let candidates = [
         "location" : "Krakow",
         "hobbies" : "Writing, coaching",
         "music" : "Irish",
-        "img" : "https://kep.cdn.indexvas.hu/1/0/1649/16493/164935/16493565_982033_18beb10d9fcaa57c0dc587ceb055a37c_wm.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "79"           
       },
       { "id" : "17",
         "name" : "Jockey",
@@ -183,9 +199,10 @@ let candidates = [
         "location" : "New York",
         "hobbies" : "Bowling, flying",
         "music" : "Jennifer Lopez",
-        "img" : "https://en.fambo.info/wp-content/uploads/2018/02/a89c450660f0bafc53892257076e0260.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "78"           
       },
       { "id" : "18",
         "name" : "Mona Lisa",
@@ -194,9 +211,10 @@ let candidates = [
         "location" : "Kioto",
         "hobbies" : "Riding, gardening",
         "music" : "Pink",
-        "img" : "https://aliexpressz.hu/3193954-thickbox_default/rozsaszin-nok-ferfiak-unisex-indiai-stilusban-nyujthato-turban-kalap-haj-fejet-csomagolja-a-fej-fejresz.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "44"           
       },
       { "id" : "19",
         "name" : "Tatumatu",
@@ -205,9 +223,10 @@ let candidates = [
         "location" : "Sydney",
         "hobbies" : "Sleeping, eating",
         "music" : "Chill",
-        "img" : "https://igenyesferfi.hu/wp-content/uploads/2017/02/mit_gondol_a_no.jpg",
+        "img" : "https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "27"           
       },
       { "id" : "20",
         "name" : "Leonardo",
@@ -216,8 +235,9 @@ let candidates = [
         "location" : "Rome",
         "hobbies" : "History, Music",
         "music" : "Classic",
-        "img" : "https://igenyesferfi.hu/wp-content/uploads/2015/04/hairstyles-for-men-2015.jpg",
+        "img" : "https://hirado.hu/wp-content/uploads/sites/7/2017/04/Stockphoto-Kopaszod%C3%A1s-Kopasz-f%C3%A9rfi-Hajhull%C3%A1s.jpg",
         "fav": "false",
-        "quote" : "Be the change that you wish to see in the world."        
+        "quote" : "Be the change that you wish to see in the world.",
+        "numfavs" : "88"           
       }
 ]
